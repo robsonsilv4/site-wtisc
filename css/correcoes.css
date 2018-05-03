@@ -1,8 +1,12 @@
-#superior {
+/* #superior {
     margin-bottom:0;
-}
+} */
 
 .cabecalho {
     padding-bottom: 9px;
     margin: 40px 0 20px;
 }
+
+body {
+    margin-top: 70px;
+ }
