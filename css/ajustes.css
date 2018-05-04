@@ -1,3 +1,8 @@
 .is-horizontal-center {
     justify-content: center;
 }
+
+.centralizado {
+    margin: 50 auto;
+    position: center!;
+  }
