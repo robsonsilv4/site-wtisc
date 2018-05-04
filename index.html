@@ -1,125 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>WTISC</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/correcoes.css">
-	<script src="js/jquery-3.3.1.slim.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WTISC 2018</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 
 <body>
-	<!-- <header id="header" class="jumbotron-fluid text-center">
-		<div class="cabecalho">
-			<img class="image-fluid" src="img/banner.jpg">
-		</div>
-		<h1>WTISC</h1>
-		<p>Lorem ipsum dolor sit amet.</p>
-	</header> -->
+    <nav class="navbar is-success">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="http://wtisc.quixada.ufc.br/">
+                <img src="img/logo.png" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navegacao">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
 
-	<nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-top">
-		<a class="navbar-brand" href="#">WTISC</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#evento">Evento</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="programacao.html">Programação</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Inscrições</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contato</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+        <div id="navegacao" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item is-hoverable" href="#evento">
+                    O Evento
+                </a>
+                <a class="navbar-item is-hoverable" href="progamacao.html">
+                    Programação
+                </a>
+                <a class="navbar-item is-hoverable" href="inscricoes.html">
+                    Inscrições
+                </a>
+                <a class="navbar-item is-hoverable" href="contato.html">
+                    Contato
+                </a>
+            </div>
 
-	<div class="container text-center div-slide">
-		<div id="slide" class="carousel slide" data-ride="carousel" align="center">
-			<ul class="carousel-indicators">
-				<li data-target="#slide" data-slide-to="0" class="active"></li>
-				<li data-target="#slide" data-slide-to="1"></li>
-				<li data-target="#slide" data-slide-to="2"></li>
-			</ul>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
 
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="img-fluid" src="img/01.png">
-				</div>
-				<div class="carousel-item">
-					<img class="img-fluid" src="img/02.png">
-				</div>
-				<div class="carousel-item">
-					<img class="img-fluid" src="img/03.png">
-				</div>
-			</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-			<a class="carousel-control-prev" href="#slide" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#slide" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
-		</div>
-	</div>
-	<!-- Fim do slide -->
+    <!-- <section class="hero is-light is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Banner
+                </h1>
+                <h2 class="subtitle">
+                    Lorem ipsum dolor sit amet.
+                </h2>
+            </div>
+        </div>
+    </section> -->
 
-	<div class="row">
-		<div class="container col-sm-8">
-			<p class="text-justify">
-				O Workshop de Tecnologia da Informação do Sertão Central (WTISC) é um evento da Universidade Federal do Ceará Campus Quixadá,
-				realizado anualmente no primeiro semestre do ano, pelo grupo PET - Sistemas de Informação. O objetivo do evento é promover
-				e difundir o conhecimento sobre as diversas áreas de Tecnologia da Informação, de forma a fortalecer e motivar a formação
-				técnico-profissional, por meio da troca de experiências entre profissionais e acadêmicos. O WTISC é evento público realizado
-				desde 2008, e consiste na oferta de palestras, minicursos, mesa redonda e hackathon. Buscando apresentar aos alunos/participantes
-				um pouco da realidade do mercado de trabalho.
-			</p>
-			<ul>
-				<li>Nas palestras, os profissionais contam sua experiência profissional e temas acadêmicos: área de atuação, dicas para se
-					tornar um bom profissional, tecnologias utilizadas, além de diversos temas tecnológicos.</li>
-				<li>Nos minicursos, são apresentados aos alunos/participantes várias técnicas e ferramentas utilizadas em diversas áreas
-					de atuação no mercado e na academia.</li>
-				<li>Na mesa redonda, um grupo de atuais e ex-alunos irão relatar experiências acadêmicas e profissionais para os participantes,
-					buscando mostrar como foi antes e após a conclusão do curso.</li>
-				<li>A hackathon é um evento intensivo de inovação tecnológica. É comum que hackathons durem de 24 a 48h e que tenham um espírito
-					de competição. Em todo caso, é uma oportunidade para grupos de empreendedores colocarem as cabeças para pensar e construir
-					uma proposta inovadora de acordo com o tema proposto.</li>
-			</ul>
-		</div>
-	</div>
+    <br>
+    <div class="container">
+        <img class="image" src="img/logo.png" width="">
+    </div>
 
-	<hr>
-	<div class="container row text-center">
-		<div class="col-md">
-			<p>Organização:</p>
-			<img class="img-fluid" src="img/UFC.jpg" width="76" height="125">
-			<img class="img-fluid" src="img/PET.jpg" width="148" height="78">
-		</div>
+    <div class="columns is-mobile is-centered">
+        <div class="column is-10 is-narrow">
+            <section id="evento" class="section">
+                <div class="content has-text-justified">
+                    <p>
+                        O Workshop de Tecnologia da Informação do Sertão Central (WTISC) é um evento da Universidade Federal do Ceará Campus Quixadá,
+                        realizado anualmente no primeiro semestre do ano, pelo grupo PET - Sistemas de Informação. O objetivo
+                        do evento é promover e difundir o conhecimento sobre as diversas áreas de Tecnologia da Informação,
+                        de forma a fortalecer e motivar a formação técnico-profissional, por meio da troca de experiências
+                        entre profissionais e acadêmicos. O WTISC é evento público realizado desde 2008, e consiste na oferta
+                        de palestras, minicursos, mesa redonda e hackathon. Buscando apresentar aos alunos/participantes
+                        um pouco da realidade do mercado de trabalho.
+                    </p>
+                    <ul>
+                        <li>Nas palestras, os profissionais contam sua experiência profissional e temas acadêmicos: área de atuação,
+                            dicas para se tornar um bom profissional, tecnologias utilizadas, além de diversos temas tecnológicos.</li>
+                        <li>Nos minicursos, são apresentados aos alunos/participantes várias técnicas e ferramentas utilizadas
+                            em diversas áreas de atuação no mercado e na academia.</li>
+                        <li>Na mesa redonda, um grupo de atuais e ex-alunos irão relatar experiências acadêmicas e profissionais
+                            para os participantes, buscando mostrar como foi antes e após a conclusão do curso.</li>
+                        <li>A hackathon é um evento intensivo de inovação tecnológica. É comum que hackathons durem de 24 a 48h
+                            e que tenham um espírito de competição. Em todo caso, é uma oportunidade para grupos de empreendedores
+                            colocarem as cabeças para pensar e construir uma proposta inovadora de acordo com o tema proposto.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
 
-		<div class="col-md">
-			<p>Patricionadores:</p>
-			<img class="img-fluid" src="img/Ifactory.jpg">
-		</div>
-	</div>
+        <!-- <div class="column">
+            <figure class="image is-square">
+                <img src="img/banner.png">
+            </figure>
+        </div> -->
+    </div>
 
-	<br>
-	<footer class="jumbotron text-center superior">
-		<p class="float-right">
-			<a href="#superior">Inicio</a>
-		</p>
-		<p>&copy; 2018 PET-SI, UFC</p>
-	</footer>
+    <hr>
+    <div class="columns is-mobile is-centered">
+        <div class="column is-4 has-text-centered">
+            <h4 class="has-text-left has-text-weight-bold">Patriocinadores:</h4>
+            <img class="image" src="img/patriocinadores/greenmile.png">
+        </div>
+        <div class="column is-4 has-text-centered">
+            <img class="image" src="img/patriocinadores/aquiles-tecnologia.png">
+        </div>
+    </div>
+
+    <footer class="footer is-small">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p class="has-text-weight-semibold">
+                    &copy; PET-SI 2018
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
