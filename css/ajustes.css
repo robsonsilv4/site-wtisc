@@ -22,3 +22,21 @@
     padding: 1.5rem 1.5rem 1.5rem !important;
     margin-top: 1.5em;
 }
+
+.table {
+    margin-bottom: 3em !important;
+}
+
+.center-table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.center-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* caption {
+    margin-top: 0.5em;
+} */
