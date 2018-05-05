@@ -24,7 +24,8 @@
 }
 
 .table {
-    margin-bottom: 3em !important;
+    overflow-x: auto;
+    /* margin-bottom: 3em !important; */
 }
 
 .center-table th {
