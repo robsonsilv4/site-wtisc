@@ -55,3 +55,8 @@
     width: 50% !important;
     align-items: center !important;
 }
+
+/* Nome dos ministrantes */
+.minister-name span {
+	font-weight: bolder;
+}
