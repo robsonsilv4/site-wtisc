@@ -60,3 +60,9 @@
 .minister-name span {
 	font-weight: bolder;
 }
+
+.social {
+    width: 32px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
