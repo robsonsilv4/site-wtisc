@@ -11,15 +11,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <nav class="navbar is-link">
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top is-link">
         <div class="navbar-brand">
             <a class="navbar-item" href="http://wtisc.quixada.ufc.br/">
                 <img class="marca" src="img/logo-nova.png">
             </a>
+
+            <!-- Menu hamburger -->
+            <span class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
         </div>
 
-        <div class="navbar-menu is-active">
+        <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
                 <a class="navbar-item is-hoverable is-active" href="#evento">
                     O Evento
@@ -42,7 +49,7 @@
             <img class="logo" src="img/logo.png">
         </div>
 
-        <div class="container">
+        <div class="container column">
             <div class="content has-text-justified">
                 <p>
                     O Workshop de Tecnologia da Informação do Sertão Central (WTISC) é um evento da Universidade Federal do Ceará Campus Quixadá,
@@ -108,6 +115,8 @@
             <p>&copy; PET-SI 2018</p>
         </div>
     </footer>
+
+    <script src="js/wtisc.js"></script>
 
     <!-- Robson:
     Continuar sempre estudando HTML e CSS! -->
