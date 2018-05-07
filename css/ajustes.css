@@ -21,14 +21,15 @@
 
 .icone {
     font-size: 24px;
-    color: whitesmoke !important;
+    /* color: whitesmoke !important; */
+    color: #3273dc !important;
 }
 
 .footer {
-    color: whitesmoke !important;
-    background-color: #3273dc !important;
+    color: #3273dc !important;
+    /* color: whitesmoke !important; */
+    /* background-color: #3273dc !important; */
     padding: 1.5rem 1.5rem 1.5rem !important;
-    margin-top: 1.5em;
 }
 
 .table {
